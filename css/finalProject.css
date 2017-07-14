@@ -52,7 +52,7 @@ hr{
    border: 3px solid #747704;
 }
 .welcome{
-    font-size: 550%;
+    font-size: 400%;
 }
 li.dropdown:hover > .dropdown-menu {
     display: block;

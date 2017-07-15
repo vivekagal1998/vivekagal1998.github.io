@@ -15,16 +15,26 @@ box-sizing: border-box;
 iframe{
   height: 570px;
 }
-@media (max-width: 677px){
+.heading{
+      display: block;
+}
+@media (max-width: 550px){
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+    } 
     iframe{
       width: 100%;
       height: 350px;
     }
-    div h3.heading{
-      display: none;
-    }
     div.signal{
       font-size: 86%;
+    }
+    .heading{
+      display: none;
+      width: 100%;
+      padding: 5px;
     }
     .mission{
       margin-top: 15px;
@@ -80,6 +90,7 @@ a.ex:hover{
     display: inline-block;
     font-size: 250%;
     border-bottom: 4px solid black;
+    padding: 10px;
 }
 hr{
    border: 3px solid #747704;
@@ -111,4 +122,8 @@ footer {
 }
 .names:hover{
     background-color: #D5EFFF;
+}
+nav ul{
+  background-color: #8cb7ff;
+  font-weight: 400;
 }

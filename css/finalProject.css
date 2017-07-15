@@ -1,2 +1,129 @@
-/*using css minifier*/
-*{font-family:'Alegreya Sans',sans-serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box}.welcome{font-size:400%}.lookover{margin-top:70px}iframe{height:570px}.heading{display:block}@media (max-width:550px){nav ul li{box-sizing:border-box;width:100%;text-align:left}iframe{width:100%;height:350px}div.signal{font-size:86%}.heading{display:none;width:100%;padding:5px}.mission{margin-top:15px}div h1.welcome1{font-size:300%}div h1 marquee{display:block}.resp{margin-top:75px}.lookover{margin-top:100px}}@media (min-width:950px;#quote:hover{background-color:#BBFFA3}#grad{background:red;background:-webkit-linear-gradient(left top,#FF6351,#ff0);background:-o-linear-gradient(bottom right,#FF6351,#ff0);background:-moz-linear-gradient(bottom right,#FF6351,#ff0);background:linear-gradient(to bottom right,#FF6351,#ff0)}body{overflow-x:hidden}.container-fluid{margin-top:25px}a.ex:hover{font-size:150%}.carousel-inner{border:4px solid #000;width:100%;max-height:625px!important}.carousel-caption{position:absolute;top:150px}.firsttitle{background-color:#D2F7FF;display:inline-block;font-size:250%;border-bottom:4px solid #000;padding:10px}hr{border:3px solid #747704}li.dropdown:hover>.dropdown-menu{display:block}.space{margin-top:150px}div.aims:hover{background-color:red}.btn-default{border-radius:0}footer{width:100%;height:100px;bottom:0}.img:hover{top:-10px}.img{position:relative;top:0;transition:top ease .3s}.names:hover{background-color:#D5EFFF}nav ul{background-color:#3A75D6;font-weight:400}
+*{
+font-family: 'Alegreya Sans', sans-serif;
+box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.welcome{
+    font-size: 400%;
+}
+.lookover{
+  margin-top: 70px;
+}
+iframe{
+  height: 570px;
+}
+.heading{
+      display: block;
+}
+@media (max-width: 550px){
+    nav ul li{
+      box-sizing: border-box;
+      width: 100%;
+      text-align: left;
+    } 
+    iframe{
+      width: 100%;
+      height: 350px;
+    }
+    div.signal{
+      font-size: 86%;
+    }
+    .heading{
+      display: none;
+      width: 100%;
+      padding: 5px;
+    }
+    .mission{
+      margin-top: 15px;
+    }
+    div h1.welcome1{
+      font-size: 300%;
+    }
+    div h1 marquee{
+      display: block;
+    }
+    .resp{
+      margin-top: 75px;
+    }
+    .lookover{
+      margin-top: 100px;
+    }
+}
+@media (min-width:950px; ) {
+    div.signal{
+      font-size: 135%;
+    }
+}
+#quote:hover{
+  background-color: #BBFFA3;
+}
+#grad {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(left top, #FF6351, yellow); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(bottom right, #FF6351, yellow); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(bottom right, #FF6351, yellow); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to bottom right, #FF6351, yellow); /* Standard syntax */
+}
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+.container-fluid{
+    margin-top: 25px;
+}
+a.ex:hover{
+    font-size: 150%;
+}
+.carousel-inner{
+    border: black 4px solid;
+  width:100%;
+  max-height: 625px !important;
+}
+.carousel-caption {
+   position: absolute;
+   top:150px
+}
+.firsttitle{
+    background-color: #D2F7FF;
+    display: inline-block;
+    font-size: 250%;
+    border-bottom: 4px solid black;
+    padding: 10px;
+}
+hr{
+   border: 3px solid #747704;
+}
+li.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+.space{
+    margin-top: 150px;
+}
+div.aims:hover{
+    background-color: red;
+}
+.btn-default {
+      border-radius: 0;
+}
+footer {
+    width: 100%;
+    height: 100px;
+    bottom: 0;    
+}
+.img:hover{
+    top: -10px;
+}
+.img{
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+.names:hover{
+    background-color: #D5EFFF;
+}
+nav ul{
+  background-color: #3A75D6;
+  font-weight: 400;
+}

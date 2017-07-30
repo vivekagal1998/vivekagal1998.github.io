@@ -1,0 +1,108 @@
+*{
+	margin: 0 auto;
+}
+header{
+	background-image: url(img/green1.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid red;
+	border-bottom-right-radius: 2px;
+	max-width: 100%;
+}
+body{
+	background-image: url(img/bgr4.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family: 'Lato', sans-serif !important;
+}
+li a{
+	color: white;
+}
+img{
+	border: 2px solid black;
+	border-radius: 2px;
+}
+
+hr{
+    border: none;
+    height: 4px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+hr:last-child{
+	color: #000000;
+}
+h1{
+	color: #000000;
+}
+h1:first-child{
+	color:default;
+}
+nav ul li{
+	margin-left: 40px;
+}
+nav ul li:first-child{
+	margin-left: 0px;
+}
+aside{
+	border: 2px solid #001DFA;
+	margin-right: 30px;
+	background: #7FFFCE;
+	box-shadow: 10px 10px 5px #888888;
+}
+.name:hover{
+	color: red;
+	cursor: pointer;
+}
+.main{
+
+	border: 2px solid black;
+	box-shadow: 10px 10px 5px #888888;
+	background-image: url(img/bg1.jpg);
+	background-size: cover;
+}
+div div div ul li{
+	padding: 10px;
+	font-size: 1.15em;
+}
+footer{
+	max-width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	background-color: #FF6DA4;
+	height: 340px;	
+	box-shadow: 10px 10px 5px #888888;   
+	border: 2px solid red;
+}
+.img:hover{
+    top: -10px;
+}
+.images:hover{
+	box-shadow: 10px 10px 5px #888888;
+}
+.img{
+  position: relative;
+  top: 0;
+  transition: top ease 0.3s;
+}
+
+
+/*starting responsive work*/
+
+/*targeting ipad*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  { 
+	header div h1{
+		margin-top: 50px;
+	}
+}
+
+@media screen and (max-width: 767px){
+	header{
+		height: 300px;
+	}
+	aside{
+		margin-right: 0px;
+	}
+}
+

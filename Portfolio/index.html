@@ -3,7 +3,7 @@
 <head>
 	<title>Portfolio - Vivek Shah</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width,initial scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="theme-color" content="#66FFFF" />
 	<meta name="author" content="Vivek Shah">
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
@@ -14,11 +14,13 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Calligraffitti|Great+Vibes" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Salsa" rel="stylesheet">
 </head>
 <body>
 <div style="width: 100%;padding: 0px;margin: 0 auto">
-	<header style="height: 275px;padding: 35px;" class="header">
-		<div ><h1 style="text-align: center;font-size: 2.35em; color: #F71068;padding: 45px;"><u>MY PORTFOLIO - VIVEK SHAH</u></h1></div><br>
+	<header style="height:300px;padding: 35px;" class="header">
+		<div ><h1 style="text-align: center;font-size: 2.35em; color: #B6FF00;font-weight: 900; padding-top: 70px;font-family: 'Calligraffitti', cursive;" class="heading"><b><u>MY PORTFOLIO</u></b></h1></div><br>
 		<div class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -30,7 +32,7 @@
 			<a href= "#" class="navbar-brand">MENU</a>
 			</div>
 			<div class="collapse navbar-collapse navbar-ex1-collapse ">
-			    <ul class="nav navbar-nav pull-right">
+			    <ul class="nav navbar-nav pull-right" id="fonts">
 			        <li class="active"><a href="#" style="text-align: left;">HOME</a></li>
 			        <li><a href="#aboutme">ABOUT ME</a></li>
 			        <li><a href="#featuredwork">FEATURED WORK</a></li>
@@ -52,8 +54,8 @@
 			<div class="row">
 			<aside>
 				<div>
-					<img src="img/my.jpg" style="max-width: 100%;height: auto;" class="image img-responsive"><hr>
-					<h2 style="padding: 20px;text-align: center;" class="name"><u>VIVEK</u> <u>SHAH</u></h2><hr>
+					<img src="img/my.jpg" style="width: 100%; height: auto;padding: 2px;border: 2px solid black" class="img-responsive "><hr>
+					<h2 style="padding: 20px;text-align: center;" class="name" id="fonts"><u>VIVEK</u> <u>SHAH</u></h2><hr>
 					<div class="works" style="padding: 20px;font-size: 1.2em">
 						<p>
 							<i class="fa fa-briefcase" aria-hidden="true" style="color: blue"><font color="black" style="padding: 10px" class="name"> Web-App Developer</font></i>
@@ -77,7 +79,7 @@
 					</div>
 					<div style="padding: 20px" >
 						<div class="skills">
-							<i class="fa fa-star" aria-hidden="true" style="color:#53F227"><font color="black" style="padding: 10px;font-size: 1.45em"><u>SKILLS</u></font></i>
+							<i class="fa fa-star" aria-hidden="true" style="color:#53F227"><font color="black" style="padding: 10px;font-size: 1.45em"><u id="fonts">SKILLS</u></font></i>
 						</div>
 						<br><hr><br>
 							<div>
@@ -132,7 +134,7 @@
 							</div>
 					</div>
 				</div><hr>
-			</aside>
+			</aside><div style="margin-top: 50px;"></div>
 			</div>
 		</div>
 		<!--Ending Aside-->
@@ -140,7 +142,7 @@
 		<div class="col-md-8 col-sm-8 col-xs-12">
 			<div class="row main"><br>
 				<div id="aboutme">
-					<h1 style="text-align: center;">About Me</h1><hr><br>
+					<h1 style="text-align: center;" id="fonts">About Me</h1><hr><br>
 					<ul>
 						<li>
 							Hola !! Here's the self-motivated guy who is optimistic as well as determined for his goals.
@@ -169,24 +171,24 @@
 			<div style="margin-top: 50px"></div>
 			<div class="row main"><br>
 				<div id="featuredwork">
-					<h1 style="text-align: center;">Featured Work</h1><hr><br>
+					<h1 style="text-align: center;" id="fonts">Featured Work</h1><hr><br>
 					<div class="myworks"> 
 						<div class="col-md-4 col-sm-4 col-xs-12" style="padding: 10px">
-							<a href="https://vivekagal1998.github.io/YADUNANDAN/" target="_blank" style="color: #6D0088">
-								<img class="images img-responsive img-rounded" src="img/factory.PNG" style="max-width: 100%;" border="3" title="Family Business Website">
+							<a href="https://vivekagal1998.github.io/" target="_blank" style="color: #6D0088">
+								<img class="images img-responsive img-rounded" src="img/factory.png" style="max-width: 100%;" border="3" title="Family Business Website">
 							<h3 style="text-align: center;"><u>First Responsive Website</u></h3>
 							</a>
 						</div>
 
 						<div class="col-md-4 col-sm-4 col-xs-12" style="padding: 10px">
 							<a href="https://github.com/vivekagal1998/Random-Quotes---Chrome-Extension/" target="_blank" style="color: #6D0088">
-								<img class="images img-responsive img-rounded" src="img/extension.PNG" width="100%" height="225px" style="max-width: 100%;" border="3" title="Chrome Extension which generates random Quote">
+								<img class="images img-responsive img-rounded" src="img/extension.png" width="100%" height="225px" style="max-width: 100%;" border="3" title="Chrome Extension which generates random Quote">
 							<h3 style="text-align: center;"><u>Chrome Extension</u></h3>
 							</a>
 						</div>
 						<div class="col-md-4 col-sm-4 col-xs-12" style="padding: 10px">
 							<a href="https://medium.com/@vivekagal1998/what-shall-i-do-before-learning-coding-the-first-step-touch-typing-4fa969ddf296" target="_blank" style="color: #6D0088">					
-								<img class="images img-responsive img-rounded" src="img/medium.PNG" width="100%" height="225px" style="max-width: 100%;" border="3" title="Medium Articles">
+								<img class="images img-responsive img-rounded" src="img/medium.png" width="100%" height="225px" style="max-width: 100%;" border="3" title="Medium Articles">
 							<h3 style="text-align: center;"><u>Medium Article</u></h3>
 							</a>
 						</div>
@@ -196,7 +198,7 @@
 			<div style="margin-top: 50px"></div>
 			<div class="row main">
 				<div style="text-align: center;" id="certificate">
-					<h1>My Front-End Knowledge</h1><hr><br><br>
+					<h1 id="fonts">My Front-End Knowledge</h1><hr><br><br>
 					<img class="images img-responsive" src="img/nptel.jpg" style="max-width: 100%;width: 90%; cursor: pointer;" border="3"  title="NPTEL Cetificate for Course in Front-End">
 					<h3 style="text-align: center;color: #F57A00;"><u>NPTEL Certificate for Completing Web Development Course</u></h3>
 				</div><br>
@@ -210,30 +212,31 @@
 <footer>
 	<font color="black" class="row">
 		<div id="findme">	
-			<h1 style="text-align: center;">
+			<h1 style="text-align: center;" id="fonts">
 				FIND ME ON
 			</h1>
 			<hr><br>
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="https://www.github.com/vivekagal1998" target="_blank"><i class="fa fa-github-square fa-4x social img"></i></a>
+		        <a href="https://www.github.com/vivekagal1998" target="_blank"><i class="fa fa-github-square fa-4x social img" style="color: black"></i></a>
 		      </div>
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="https://www.linkedin.com/in/vivek-shah-35112711a/" target="_blank"><i class="fa fa-linkedin-square fa-4x social img" aria-hidden="true"></i></a>
+		        <a href="https://www.linkedin.com/in/vivek-shah-35112711a/" target="_blank"><i class="fa fa-linkedin-square fa-4x social img" aria-hidden="true" style="color: darkblue"></i></a>
 		      </div>
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="https://www.facebook.com/myselfyo.viv" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-4x social img"></i></a>
+		        <a href="https://www.facebook.com/myselfyo.viv" target="_blank"><i id="social-fb" class="fa fa-facebook-square fa-4x social img" style="color: #0B1EC6"></i></a>
 		      </div>
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="https://medium.com/@vivekagal1998/" target="_blank"><i class="fa fa-medium fa-4x social img" aria-hidden="true"></i></a>
+		        <a href="https://medium.com/@vivekagal1998/" target="_blank"><i class="fa fa-medium fa-4x social img" aria-hidden="true" style="color: #66cdaa"></i></a>
 		      </div>
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="https://www.instagram.com/vivek_shah98" target="_blank"><i class="fa fa-instagram fa-4x social img"></i></a>
+		        <a href="https://www.instagram.com/vivek_shah98" target="_blank"><i class="fa fa-instagram fa-4x social img" style="color: #125688"></i></a>
 		      </div>         
 		      <div class="col-md-2 col-sm-2 col-xs-4">
-		        <a href="mailto:vivekagal1998@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-4x social img"></i></a>
+		        <a href="mailto:vivekagal1998@gmail.com"><i id="social-em" class="fa fa-envelope-square fa-4x social img" style="color: red"></i></a>
 		      </div>
-		      <div style="margin-top: 50px"></div><br><br>
-			<div style="text-align: center;margin-top: 15px;"><br>
+		      <div style="margin-top: 70px" class="feedbackmargin"><br><br></div>
+			<div style="text-align: center;margin-top: 10px;"><br>
+				<p align="center" style="font-family: 'Calligraffitti', cursive;font-size: 1.4em;color: #2C0136"><b><u>Your</u> <u>Feedback</u> <u>are</u> <u>most</u> <u>welcome</u>!!</b></p>
 	      		<p align="center"><b>&copy; 2017 My Portfolio. Built with <i class="fa fa-heart" aria-hidden="true" style="color: #E8281B"></i> by Vivek Shah in India.</b></p>
 	      		<p style="padding: 5px"><b>All rights are reserved.</b></p>
 			</div>

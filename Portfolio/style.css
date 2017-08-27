@@ -89,6 +89,9 @@ footer{
 .img:hover{
     top: -10px;
 }
+.images{
+	transition: 0.3s;
+}
 .images:hover{
 	box-shadow: 10px 10px 5px #888888;
 }
